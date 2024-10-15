@@ -1,0 +1,120 @@
+nav {
+    background-color: navy;
+    margin-bottom: 30px;
+    width: 100%;
+    position: sticky;
+    height: 60px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-flex;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: large;
+    padding: 10px;
+    color: white;
+}
+
+
+#more {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#more div {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+#more div img {
+    object-fit: cover;
+    width: 90%;
+    height: 50vh;
+
+}
+
+#reg {
+    font-size: 10cap;
+    text-align: center;
+    color: rgb(red, green, blue);
+    text-decoration: underline;
+}
+
+.add {
+    font-size: 35px;
+}
+/* body */
+body{
+    background-color:lightblue;
+}
+
+.gucci {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    height: 10vh;
+    box-shadow: 3px 3px 3px 3px  white;
+}
+
+#tend {
+    text-align: center;
+    font-size: 10cap;
+}
+
+.hoe {
+    font-size: 25px;
+}
+
+.ido {
+    background-color:gold;
+}
+
+#one {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: maroon;
+    font-size: 40px;
+    margin-bottom: 35px;
+    margin-bottom: 20px;
+}
+
+
+
+#text .textone {
+    display: inline-flex;
+}
+
+#text .heading{
+    text-align: center;
+    color:brown;
+}
+
+#text .textone{
+    background-color:black;
+    font-size: 20px;
+    color: azure;
+    margin-left: 20px;
+    width: 22%;
+    height: 20vh;
+    margin-bottom: 70px;
+    box-shadow: 4px 4px 4px 4px   navy;
+}
+
+#text .textone p{
+    padding: 20px;
+}
+
+#text .textone p span{
+    color: rgb(145, 162, 192);
+}
