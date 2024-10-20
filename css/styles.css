@@ -46,6 +46,7 @@ nav li a {
 
 .add {
     font-size: 35px;
+    color: maroon;
 }
 /* body */
 body{
@@ -73,6 +74,9 @@ body{
 }
 
 .hoe {
+    font-size: 25px;
+}
+.price-slash{
     font-size: 25px;
 }
 
@@ -117,4 +121,26 @@ body{
 
 #text .textone p span{
     color: rgb(145, 162, 192);
+}
+
+
+.cancel{
+    text-decoration: line-through;
+    font-size: 25px;
+    text-decoration-color: aliceblue;
+}
+
+#male {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+#male div {
+    margin-left: 50px;
+}
+
+#male div img{
+    width: 95%;
+    height: 50vh;
+    object-fit: cover;
 }
